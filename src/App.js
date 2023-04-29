@@ -21,10 +21,10 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/usertable" element={<UserTable />} />
-        {/* <Route path="/airporttable" element={<AirportTable />} /> */}
-        {/* <Route path="/flighttable" element={<FlightTable />} /> */}
+        <Route path="/airporttable" element={<AirportTable />} />
+        <Route path="/flighttable" element={<FlightTable />} />
         <Route path="/teamtable" element={<TeamTable />} />
-        {/* <Route path="/stafftable" element={<StaffTable/>} /> */}
+        <Route path="/stafftable" element={<StaffTable/>} />
       </Routes>
     </>
   );
